@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Flavien Gonin">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+
+        <script type="text/javascript" src="index.js"></script>
+        <link rel="stylesheet" href="./style-index.css">
+        <title>Gonin Flavien Portfolio</title>
+    </head>
+    <body>
+        <div>
+            <h1>My portfolio</h1>
+            <nav>
+                <p class="selected" onclick="show(this, 'Studies')">Studies</p>
+                <p class="" onclick="show(this, 'Experiences')">Professional experiences</p>
+                <p class="" onclick="show(this, 'Project')">Personal projects</p>
+                <p class="" onclick="show(this, 'About')">About me</p>
+            </nav>
+        </div>
+        <div class="core print" id="Studies">
+            <ol class="timeline-ol">
+                <li class="timeline-li">
+                    <h2>Master 1 Computer Science & Master 2 Gamagora - Lumiere University Lyon 2</h2>
+                    <span>2023-2025</span>
+                    <p>Master’s degree in Video Game Development</p>
+                </li>
+                <li class="timeline-li">
+                    <h2>UFR IM²AG - Grenoble Alpes University</h2>
+                    <span>2022-2023</span>
+                    <p>Bachelor’s degree in Computer Science</p>
+                </li>
+                <li class="timeline-li">
+                    <h2>IUT2 - Grenoble Alpes University</h2>
+                    <span>2020-2022</span>
+                    <p>DUT in Computer Science</p>
+                </li>
+                <li class="timeline-li">
+                    <h2>Philibert Delorme - L'isle d'abeau high school</h2>
+                    <span>2020</span>
+                    <p>Bac S - ISN</p>
+                </li>
+            </ol>
+        </div>
+        <div class="core" id="Experiences">
+            <ol class="timeline-ol">
+                <li class="timeline-li">
+                    <h2>Renaults Trucks</h2>
+                    <span>April 2024-September 2024</span>
+                    <p>Study and development of a support platform for 
+                        development of applications in augmented reality</p>
+                </li>
+                <li class="timeline-li">
+                    <h2>Renaults Trucks</h2>
+                    <span>April 2022-June 2022</span>
+                    <p>Study and development of a virtual reality application</p>
+                </li>
+            </ol>
+        </div>
+        <div class="core" id="Project">
+            <ol class="project-ol">
+                <li class="project-li">
+                    <a href="">
+                        <img src=""/>
+                        <h2>Deku's Quest & Project of Lee - Role Playing Game</h2>
+                        <span>2021</span>
+                        <p>RPG Maker MV & RPG Maker MZ</p>
+                    </a>
+                </li>
+                <li class="project-li">
+                    <a href="https://github.com/ZPyrolink/Sokoban---Algo6">
+                        <img src="./ressources/sokoban.png"/>
+                        <h2>Sokoban - Solve game level with AI</h2>
+                        <span>2023</span>
+                        <p>Java, Artificial Intelligence, Dijkstra algorithm</p>
+                    </a>
+                </li>
+                <li class="project-li">
+                    <a href="https://github.com/ZPyrolink/L3_Info_Groupe_4_Projet_Prog6">
+                        <img src="./ressources/taluva.png"/>
+                        <h2>Taluva - Board game adaptation</h2>
+                        <span>2023</span>
+                        <p>Unity 3D, C#</p>
+                    </a>
+                </li>
+                <li class="project-li">
+                    <a href="https://github.com/KatSukiFireStar/Living-At-Time">
+                        <img src="./ressources/living.png"/>
+                        <h2>Living At Time - Narative game</h2>
+                        <span>2024</span>
+                        <p>Swift, iOS</p>
+                    </a>
+                </li>
+                <li class="project-li">
+                    <a href="https://github.com/KatSukiFireStar/Pac-Man">
+                        <img src="./ressources/pac.png"/>
+                        <h2>Pac Man - Arcade game adaptation</h2>
+                        <span>2024</span>
+                        <p>Unity 3D, C# (not finished)</p>
+                    </a>
+                </li>
+            </ol>
+        </div>
+        <div class="core" id="About">
+            <div class="contact">
+                <ol class="contact-ol">
+                    <li class="contact-li">
+                        <img src="./ressources/pp.png"/>
+                    </li>
+                    <li class="contact-li">
+                        <p>Email:</p>
+                        <a href="mailto:gonin.flavien@gmail.com">gonin.flavien@gmail.com</a>
+                    </li>
+                    <li class="contact-li">
+                        <p>Phone:</p>
+                        <p>+33632263300</p>
+                    </li>
+                    <li class="contact-li">
+                        <p>Birthday:</p>
+                        <p>July 11th, 2002</p>
+                    </li>
+                    <li class="contact-li">
+                        <p>Location:</p>
+                        <p>Valencin, France</p>
+                    </li>
+                </ol>
+            </div>
+            <div class="info">
+                <h1>Skills</h1>
+                <div class="skills">
+                    <ol class="info-ol">
+                        <h2>Computer Language</h2>
+                        <li class="info-li">
+                            <p>C / C++ / C#</p>
+                        </li>
+                        <li class="info-li">
+                            <p>Java</p>
+                        </li>
+                        <li class="info-li">
+                            <p>Html / CSS / PHP / JS</p>
+                        </li>
+                        <li class="info-li">
+                            <p>Python</p>
+                        </li>
+                        <li class="info-li">
+                            <p>Bash</p>
+                        </li>
+                    </ol>
+                    <ol class="info-ol">
+                        <h2>Technologies:</h2>
+                        <li class="info-li">
+                            <p>Unity</p>
+                        </li>
+                        <li class="info-li">
+                            <p>Unreal Engine</p>
+                        </li>
+                        <li class="info-li">
+                            <p>RPG Maker</p>
+                        </li>
+                    </ol>
+                    <ol class="info-ol">    
+                        <h2>Human skills:</h2>
+                        <li class="info-li">
+                            <p>Autonomy</p>
+                        </li>
+                        <li class="info-li">
+                            <p>Team work</p>
+                        </li>
+                        <li class="info-li">
+                            <p>Organized</p>
+                        </li>
+                    </ol>
+                </div>
+                <h1>Hobbies</h1>
+                <div class="hobbies">
+                    <ol class="info-ol">
+                        <li class="info-li">
+                            <p>Video Games: Souls like, MMORPG, RPG</p>
+                        </li>
+                        <li class="info-li">
+                            <p>Reading: Shonen, Seinen, Light novel</p>
+                        </li>
+                        <li class="info-li">
+                            <p>Sport: Climbing, Cycling</p>
+                        </li>
+                        <li class="info-li">
+                            <p>Secretary: Sport kids association, Valencin</p>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
