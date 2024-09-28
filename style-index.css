@@ -3,7 +3,7 @@ body{
     margin: 0px;
 }
 
-h2,h1,p,span{
+h2,h1,p,span,a{
     font-family: "Fredoka";
     font-style: normal;
     font-weight: 400;
