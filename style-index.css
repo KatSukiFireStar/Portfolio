@@ -86,6 +86,11 @@ nav p:hover{
     color: #E3BF95;
     font-size: 20px;
     margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.timeline-li > p:last-child{
+    margin-bottom: 20px;
 }
 
 .timeline-li:not(:last-child)::before{
