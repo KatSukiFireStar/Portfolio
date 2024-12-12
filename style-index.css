@@ -132,6 +132,14 @@ nav p:hover{
     text-decoration: none;
 }
 
+#Project > h1 {
+    color: #666b57;
+    font-size: 40px;
+    margin: 0%;
+    padding-left: 5%;
+    padding-top: 1%;
+}
+
 .project-li > a > h2{
     color: #666b57;
     margin-bottom: 5px;
@@ -232,6 +240,10 @@ nav p:hover{
     list-style: none;
 }
 
+#Project > .info-ol > .info-li::before{
+    margin-top: 8px;
+}
+
 .info-li::before{
     content: "";
     position: absolute;
@@ -244,11 +256,42 @@ nav p:hover{
     margin-top: 5px;
 }
 
+
+
 .info-li > p{
     color: #E3BF95;  
     font-size: 20px;
     margin-top: 5px;
     margin-left: 20px;
+}
+
+.info-li > a {
+    text-decoration: none;
+}
+
+.info-li > a > h2{
+    color: #666b57;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.info-li > a:visited > h2{
+    color: #666b57;
+    margin-left: 20px;
+}
+
+
+.info-li > a > p{
+    color: #E3BF95;  
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.info-li > a:visited > p{
+    color: #E3BF95;
 }
 
 .core.print:not(#About){
