@@ -121,6 +121,7 @@ nav p:hover{
     list-style: none;
     margin-right: 5%;
     margin-left: 5%;
+    width: 400px;
 }
 
 .project-li img{
